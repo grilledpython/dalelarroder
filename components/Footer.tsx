@@ -25,7 +25,7 @@ export default function Footer() {
             <ul className="flex cursor-pointer items-center space-x-5">
               <li>
                 <a
-                  href={siteMetadata.linkedin}
+                  href="https://apms.cf"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="linkedin"
