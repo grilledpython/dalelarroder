@@ -18,9 +18,9 @@ export default function FourZeroFour() {
       </div>
       <div className="max-w-md">
         <p className="mb-4 text-xl font-bold leading-normal md:text-2xl">
-          Sorry we couldn't find this page.
+          Lost your way, didn't you?
         </p>
-        <p className="mb-8">But dont worry, you can find plenty of other things on our homepage.</p>
+        <p className="mb-8">But dont worry, you can get back on the track again.</p>
         <Link href="/">Back to homepage</Link>
       </div>
     </SectionContainer>
