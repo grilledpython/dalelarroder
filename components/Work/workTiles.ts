@@ -20,7 +20,7 @@ export const workTiles: WorkTile[] = [
   },
   {
     description: 'I built',
-    title: 'Blu Club',
+    title: 'Diino Hosting',
     image: {
       src: '/static/images/field-app.webp',
       width: 600,
@@ -28,17 +28,17 @@ export const workTiles: WorkTile[] = [
     },
   },
   {
-    description: `I maintain`,
-    title: 'Witchly Host',
+    description: `I built`,
+    title: 'Diino Marketplace',
     image: {
-      src: '/static/images/planner-app.webp',
+      src: '/static/images/diinomarket.webp',
       width: 600,
       height: 717,
     },
   },
   {
-    description: `I built`,
-    title: 'WaveBay',
+    description: `I maintain`,
+    title: 'Witchly Hosting',
     image: {
       src: '/static/images/publication-app.webp',
       width: 600,
