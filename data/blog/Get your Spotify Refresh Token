@@ -1,12 +1,13 @@
 ---
-title: 'My First Loss'
-date: '2023-08-07'
-tags: ['ReactJs', Snippets]
+title: 'How to get Spotify Refresh Token'
+date: '2023-09-06'
+tags: ['SpotifyAPI', Snippets]
 draft: false
 author: 'Arpan Mandal'
-summary: 'What it felt like after I lost a thing of mine for the first time in life.'
+summary: 'A guide on how to get your Spotify Refresh Token without any hassle.'
 ---
 
+In this blog post, I will demonstrate two methods for generating a Spotify Refresh Token and subsequently using it to programmatically create an access token when necessary.
 
 # Why does React need keys?
 
