@@ -10,6 +10,7 @@ export default function UsesLayout({ children }: Props) {
         <h1 className="text-3xl font-extrabold leading-9 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
           What I Use
         </h1>
+</div>
         </div>
       <div className="prose max-w-none pb-8 text-justify text-sm dark:prose-dark md:text-lg xl:col-span-2">
         {children}
