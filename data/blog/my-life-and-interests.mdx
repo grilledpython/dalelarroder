@@ -1,73 +1,39 @@
 ---
 title: 'Exploring My Life: Unveiling My Interests and Work'
 date: '2023-09-09' 
-tags: ['Personal', 'Life']
+tags: ['About Me', 'Life']
 draft: false
 author: 'Arpan Mandal'
-summary: 'This article will bring up most things about my life to you'
+summary: 'This article will bring up major events and thoughts of my life to you'
 ---
 
-# Thing that you should know about me
 
-The `key` prop is the only thing React can use to identify components in the DOM when they are
-mapped from an array. If no key is provided then you will see an error like this:
+# Who am I?
 
-```console
-Missing “key” prop for element in iterator
-```
+I am <b>Arpan Mandal</b>. A boy from the state of West Bengal present in the east of India. I was born in the 2000's and currently am completing my high school education. I really like studying until it comes to things that should be memorized forcefully. I love eating spicy junk food but never gain weight. That there is the most annoying thing of my life. I can have a full garbage diet one day but would fail to gain even 1 Kg of weight the next day. This is why, I look very skinny. Not because I don't get nutrition but because my stomach has more power than my brain.
 
-In that case, React will default to use the index of the element in the array as the key.
-Usually, developers will also provide index as the key just to remove the warning.
+<p>I would have got many hobbies if I had much time to get out of my house; but, unfortunately, that's not the case with me. Anyways I mostly like spending time alone, listening music and coding projects. Sometimes it just gets all boring and that is when I move to my couch to watch cool cinemas <i>(If there is no work to do of course, orelse my mother would not miss an opportunity to scold me for being casual while having a pile of work to do)</i>. </p>
 
-# Using the index as a key is dangerous
+<p>Nowadays, I am a bit busy due to my major exam, the "<i>Matriculation</i>" in which I really want to score good <i>(It's the only way I can choose the career of my choice.)</i> Orelse yes, I am not that type of student you'd expect who would sit in front of the book all day long. That's just a different type of human being for me. Maybe that's all that you need to know about me <i>(Or maybe that's what I think because my brain can't get more information about myself.)</i></p>
 
-#### Please do NOT do this:
 
-```js
-todos.map((todo, index) => (
-    <Todo {...todo} key={index} />
-  ));
-}
-```
+# My Interests
 
-It is stated in the official React [docs](https://reactjs.org/docs/lists-and-keys.html) that this is not recommended.
-
-> We don’t recommend using indexes for keys if the order of items may change.
-> This can negatively impact performance and may cause issues with component state.
-
-Robin Pokorny has an amazing [article](https://robinpokorny.medium.com/index-as-a-key-is-an-anti-pattern-e0349aece318) explaining in detail the negative impacts of using an index as a key.
-
-# Rules of keys
-
-- Keys must be `unique` among siblings. However, it’s okay to use the same keys for JSX nodes
-  in different arrays.
-
-- Keys must `not change` or that defeats their purpose! Don’t generate them while rendering.
-
-# Where to get your key
-
-- **Data from a database:** If your data is coming from a database, you can use the database keys/IDs,
-  which are unique by nature.
-
-- **Locally generated data:** If your data is generated and persisted locally (e.g. notes in a note-taking app),
-  use an incrementing counter, `crypto.randomUUID()` or a package like `uuid` when creating items.
-
-```js
-// id must be from db, which are unique by nature.
-const todos = [
-  {
-    id: 22,
-    name: 'eat breakfast',
-  },
-  // ....
-]
-
-// Much better
-todos.map((todo) => <Todo {...todo} key={todo.id} />)
-```
-
-# Conclusion
-
-- Always try to use stable **unique** IDs as the key.
-- If the list is **never** reordered or filtered, you can use their index as keys. (As a last resort)
-- If you're a visual learner, Dan Abramov has a short visual [explanation](https://twitter.com/dan_abramov/status/1415279090446204929?lang=en) on why React needs keys, check it out!
+There's not much that I like but some are things I enjoy really very much:
+<ul>
+<li>
+Computers
+</li>
+<li>
+Coding
+</li>
+<li>
+Games
+</li>
+<li>
+Playing the Piano
+</li>
+<li>
+Pizzas <i>(Of course...)</i>
+</li>
+</ul>
