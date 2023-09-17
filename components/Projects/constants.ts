@@ -3,7 +3,7 @@ import { Project } from './types';
 export const projects: Project[] = [
   {
     title: 'Diino Marketplace',
-    src: 'bruh.webp',
+    src: 'w2.webp',
     color: '#dbeafe',
     url: 'https://example.com',
     role: 'Fullstack Developer',
