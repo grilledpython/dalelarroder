@@ -3,9 +3,9 @@ import { Project } from './types';
 export const projects: Project[] = [
   {
     title: 'Diino Marketplace',
-    src: 'https://cdn.apms.cf/XPvqK7.png',
+    src: 'bruh.webp',
     color: '#dbeafe',
-    url: 'https://app.aphex.co/',
+    url: 'https://example.com',
     role: 'Fullstack Developer',
   },
   {
